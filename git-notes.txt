@@ -1,0 +1,65 @@
+>>>>>>>>>>>>What is a repository?
+A repo is a place where you store "things".
+
+>>>>>>>>>>>What is git?
+Git is a version control system (VCS) and collaboration tool. In short, it's a tool that manages file history/versions (e.g. source code files). It keeps track of changes and provides tools to share content.
+
+
+>>>>>>>>>What is gitlab/github?
+Github/Gitlab are online git hosting services. Hosting services can also supply additional tools that make collaboration for source code even easier; each host may have different service. Capitalism, amirite?
+
+>>>>>>>>>>>>What is a distributed VCS vs a central VCS?
+
+a CENTRAL VCS uses a central location to store all source code, data, and records. There are some issues with this, however. What happens if you lose internet? or the website goes down? You don't have acces to your data anymore.
+
+A DISTRIBUTED VCS creates a COPY of the source code and each user's machine. That way, if you lose internet you can still work or see what the most recent changes you "pulled" are. And if you make changes to your LOCAL version of the code base, then you "push" those changes to an online host so that your team members may "pull" your changes.
+
+
+git comamnds we've used on day one:
+
+git status		check the current state of git's file tracking
+git config		is used to modify git's configurations
+git clone		copies all files from a remote repository onto your local machine
+git add .		add files from your working directory into your staging directory
+git add [file1] [file2], etc		adding specific files to your staging directory
+git commit -m "my message"		create a new commit version from your staging directory
+git push		sends your LOCAL changes to the REMOTE repository
+git pull		is git fetch+ git merge
+	git fetch	go to the remote git (gitlab) and retreive any changes it has
+				but doesn't merge these changes with your local code
+	git merge	take one branch's content and merge it into the current branch's code
+git checkout [branchname]	changes the current branch to another branch
+git checkout -b [branchname]	changes current branch IF it exists, if not a new branch will be created
+git log			lists all commit versions
+git revert		reverts an existing commit version
+git stash		removes working directory changes (can be retrieved later)
+git remote -v		lists your fetch and push URLs
+git branch		is used for specific commands for a branch
+
+
+IF YOU WANT TO MERGE THE BATCH MASTER BRANCH WITH YOUR PERSONAL BATCH BRANCH:
+
+git checkout master
+git pull origin master
+git checkout [your branch]
+git merge master
+
+
+
+
+
+
+https://learngitbranching.js.org/
+
+
+
+
+
+
+
+
+
+
+
+
+
