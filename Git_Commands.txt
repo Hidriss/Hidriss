@@ -46,10 +46,7 @@ git checkout [your branch]
 git merge master
 
 
-
-
-
- 
+CHECKOUT ONLINE FOR HOW TO ADD TAGS AND FLAG IN A COMMIT
 
 
 
