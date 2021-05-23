@@ -1,0 +1,89 @@
+What is Java?
+
+An object oriented programming language based in C and maintained by Oracle.
+
+Why Java? Why use Java?
+Widley used and grandfathered in 
+	"Grandfahtered in" means that many companies are using Java
+		so it is not going anywhere anytime soon.
+* easy to use
+	>based in C
+	>object Oriented
+	>you don't have to use pointers
+	>automatic garbage collection
+	>Java is Strongly typed
+		in jave 
+			>int i = 5;
+			>i = "Hello"; //will lead to a syntax error
+		Javascript
+			>var myVariable = "hfadkdfls"
+			>myVariable = 5'
+*Java is FREE
+ 	>has rich API (lots of libraries) & documentation
+	>platform Agnostic (doesn't matter what OS is being used)
+	>"Write Once, Run anywhere"
+	>becasue of the JVM, we'll 
+		JVM: Java Virtual Machine
+			it acts as an interpreter, translating your files to something you OS will understand
+JVM -- JDK --JRE 
+
+What is heep?
+	heep is a a packet of a memory for a computer to use in the form of ram to allocate for calculations and programming needs
+memory leak:
+	running out of memory
+
+====================================================
+
+What is an object?
+* it's a virtual representation of a real world object/entity
+this makes coding easier to understand since it mimics the real world,
+something we already understand.
+	>an object has a state and behavior
+		>State is a group of attribute of the object (variables)
+		>Behaviors are actions the object can take (methods)
+* a container that holds variables and methods
+
+	>an instance of a class
+what is a class?
+	a class is a blueprint for an object(s).
+they are used o create objects of a specific type, it's a template.
+there can be many object created from the one blueprint. there will only ever be blueprint for this specific object type.
+
+* Tangent: what is the different between a function and a method?
+	a function is a block of code/functionality
+	a method is a block of code/functionality THAT IS ATTACHED TO AN OBJECT (OR CLASS)
+What is OOP?
+	>Object Oriented Programming
+progrmming that utilizes objects to simulate the real world
+
+* what are the four Pillar of OOP?
+ APIE is a helpful acronym
+	>ABSTRACTION
+	>POLYMORPHISM
+	>INHERITANCE
+	>ENCAPSULATION
+* ABSTRACTION:
+	>Demonstrating WHAT something does, without revealing HOW that action is performed.
+		aka Hiding implementation/functionality
+ex: santa clause brings us an iPhone when we write a letter, we don't know HOW Santa gets that iPhone.
+
+	* Where can we find this in code?
+	>abstract Class, Interfaces, Libraries, etc
+* POLYMORPHISM:
+	>the ability for an entity to behave/act differently depending on the scenario/stimult
+		aka Polymorphisim means "many forms"
+	* where can we find this in code?
+		overloading, overriding, "extends", upcasting, downcasting, etc
+	* Upcasting --> Parent P = new child();
+
+* INHERITANCE:
+	>The passing of attributes/behaviors from one entity to another
+	ex: DNA, you DNA is passed from your parents
+	where can we find this in code?
+		"extending" a class/inteface/etc
+
+*ENCAPSULATION:
+	>the restriction of direct access.
+	ex: vending machine, YOU don't get the snickers, the machine does
+	* where can we find this in code?
+		Public getters & setters, private state/fields
